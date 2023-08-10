@@ -1,1 +1,45 @@
-p { color: red; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7dde0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1,
+header div,
+header p {
+    margin-top: 0;
+    color: black;
+}
+
+h2 {
+    color: #35424a;
+}
+
+.section {
+    margin-bottom: -10px;
+}
+
+.section h3 {
+    margin-top: 0;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 12pt;
+    margin-bottom: 12pt;
+}
+
+.section ul li {
+    margin-left: 12pt;
+}
